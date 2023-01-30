@@ -1,4 +1,4 @@
-## Marvel_Auth
+## GrapicalPasswordAuthenticator
 Alternate login mechanism based on grids instead of normal alpha-numeric mechanism. It will sort out the problems raised due to long complexity 
 difficult passwords and easy to crack short passwords. 
 
@@ -16,8 +16,8 @@ grids was minimized so it is difficult to estimate the selection of grids for th
 
 ## Configuration 
 ```
-gh repo clone dharneesh013/Marvel_Auth
-cd Marvel_Auth
+git clone https://github.com/nithish611/GrapicalPasswordAuthenticator.git
+cd GrapicalPasswordAuthenticator
 python3 manage.py createsuperuser
 python3 manage.py runserver localhost:8000
 ```
